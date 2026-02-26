@@ -4,6 +4,12 @@
 #include <algorithm>    
 using namespace std;
 
+/*
+     Time Complexity: O(n)
+
+     Space Complexity: O(1)
+*/
+
 int kadane(vector<int>& arr) {
     int current_sum = arr[0];
     int max_sum = arr[0];
